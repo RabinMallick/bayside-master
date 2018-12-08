@@ -1,0 +1,35 @@
+{
+  "name": "bayside",
+  "version": "0.0.15",
+  "description": "A simple Node.JS framework",
+  "main": "bayside.js",
+  "scripts": {
+    "startproject": "node baysideAdmin.js",
+    "test": "mocha ./test --recursive"
+  },
+  "keywords": [
+    "node",
+    "framework",
+    "easy",
+    "minimal"
+  ],
+  "bin": {
+    "bayside": "cli.js"
+  },
+  "author": "Chris Hawkes <noobniche@gmail.com> (http://www.youtube.com/c/ChrisHawkes)",
+  "bugs": {
+    "url": "https://github.com/chawk/bayside/issues"
+  },
+  "homepage": "https://github.com/chawk/bayside",
+  "license": "MIT",
+  "dependencies": {
+    "body": "^5.1.0",
+    "node-static": "^0.7.8",
+    "nunjucks": "^2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
+  }
+}
